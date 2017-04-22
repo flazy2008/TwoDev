@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class OracleUtil {
 	public static Connection getConn() {
 		Connection conn = null;
-		try {
+		try { 
 			Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
 			String url = "jdbc:oracle:thin:@10.10.10.159:1521:hanhuamis"; // orcl为数据库的SID
 			String user = "misdba";
