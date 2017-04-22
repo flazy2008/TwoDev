@@ -13,7 +13,7 @@ public class OracleUtil {
 			Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
 			String url = "jdbc:oracle:thin:@10.10.10.159:1521:hanhuamis"; // orcl为数据库的SID
 			String user = "misdba";
-			String password = "1"; 
+			String password = "1";  
 			conn = DriverManager.getConnection(url, user, password);
 
 		} catch (Exception e) { 
