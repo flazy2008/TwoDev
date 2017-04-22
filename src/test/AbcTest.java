@@ -11,7 +11,7 @@ public class AbcTest {
 		for (int i = 1; i <= 20; i++) {
 			AbcRun run = new AbcRun(i);
 			Thread th = new Thread(run);
-			th.start();
+			th.start(); 
 		}
 	}
 }
