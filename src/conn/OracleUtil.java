@@ -21,7 +21,7 @@ public class OracleUtil {
 			e.printStackTrace();
 		}
 
-		return conn;
+		return conn; 
 	}
 
 	public static Statement getResult() {
