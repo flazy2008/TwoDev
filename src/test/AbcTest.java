@@ -20,7 +20,7 @@ class AbcRun implements Runnable {
 	Runtime rt = Runtime.getRuntime(); 
 	int num = 0;
  
-	public AbcRun(int num) {
+	public AbcRun(int num) { 
 		this.num = num;
 	}
 
