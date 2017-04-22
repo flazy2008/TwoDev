@@ -16,7 +16,7 @@ public class OracleUtil {
 			String password = "1";  
 			conn = DriverManager.getConnection(url, user, password);
 
-		} catch (Exception e) { 
+		} catch (Exception e) {  
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
